@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-weight: bolder;
+}
+
+.conteiner {
+  width: 100%;
+  height: 100vh;
+  background-image: radial-gradient(
+    circle 311px at 8.6% 27.9%,
+    rgba(62, 147, 252, 0.57) 12.9%,
+    rgba(239, 183, 192, 0.44) 91.2%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stopwatch {
+  width: 600px;
+  height: 300px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("img/9f2d0e3840ab815c6807d791aa58eb68.jpeg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+.controler {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.controler img {
+  width: 50px;
+  cursor: pointer;
+  background: transparent;
+  margin-bottom: -20px;
+}
+
+#startBtn {
+  width: 80px;
+  margin: 0 30px 0 30px;
+}
+
+#display_time {
+  color: #fff;
+  letter-spacing: 10px;
+  font-size: 40px;
+  margin-top: 80px;
+}
